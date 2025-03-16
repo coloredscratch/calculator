@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="history-panel">
+            <div class="history-content">
+                <ul class="history-list"></ul>
+            </div>
+        </div>
+        <div class="calculator">
+            <input type="text" class="display" readonly>
+            <div class="buttons">
+                <button class="clear">C</button>
+                <button class="operator">(</button>
+                <button class="operator">)</button>
+                <button class="operator">÷</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="operator">×</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="operator">-</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="operator">+</button>
+                <button>.</button>
+                <button>0</button>
+                <button class="history-toggle operator">H</button>
+                <button class="equals">=</button>
+            </div>
+            <div class="extra-functions-toggle">scientific stuff</div>
+            <div class="extra-functions">
+                <button class="operator">sin</button>
+                <button class="operator">cos</button>
+                <button class="operator">tan</button>
+                <button class="operator">asin</button>
+                <button class="operator">acos</button>
+                <button class="operator">atan</button>
+                <button class="operator">log</button>
+                <button class="operator">ln</button>
+                <button class="operator">π</button>
+                <button class="operator">e</button>
+                <button class="operator">√</button>
+            </div>
+            <button class="dark-mode-toggle">☀️</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
